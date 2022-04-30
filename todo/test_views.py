@@ -42,5 +42,5 @@ class TestViews(TestCase):
         response = self.client.post(f'/edit/{item.id}', {'name': 'Updated Name'})
         self.assertRedirects(response, '/')
         updated_item = Item.objects.get(id=item.id)
-        self.assertEqual(updated_item.name, 'Updated name')
+        self.assertEqual(updated_item.name, 'Updated Name')
         
