@@ -1,6 +1,6 @@
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
-asgiref==3.5.1
+asgiref==3.5.2
 astroid==2.11.2
 asttokens==2.0.5
 attrs==21.4.0
@@ -12,8 +12,8 @@ bleach==4.1.0
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.12
+cloudinary==1.29.0
 commonmark==0.9.1
-coverage==6.3.2
 cryptography==36.0.2
 debugpy==1.6.0
 decorator==5.1.1
@@ -21,6 +21,7 @@ defusedxml==0.7.1
 dill==0.3.4
 distlib==0.3.4
 dj-database-url==0.5.0
+dj3-cloudinary-storage==0.0.6
 Django==3.2
 docutils==0.18.1
 entrypoints==0.4
@@ -70,7 +71,7 @@ platformdirs==2.5.1
 prometheus-client==0.13.1
 prompt-toolkit==3.0.28
 psutil==5.9.0
-psycopg2-binary==2.9.3
+psycopg2==2.9.3
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pycodestyle==2.8.0
